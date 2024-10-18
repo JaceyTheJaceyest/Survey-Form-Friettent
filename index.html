@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Survey form</h1>
+    <h2>Friettent De Knutsel</h2>
+<fieldset id="info">
+    <form>
+      <label>Naam </label><input type="text" required/>
+      <label>Email </label><input type="text" required/>
+      <label>Leeftijd </label><input type="text"/>
+      <label>Adres </label><input type="text"/>
+    </form>
+</fieldset>
+<hr id="space">
+<fieldset id="stemmen">
+    <p>Stem hier over de beste sauzen en snacks voor bij de friet!</p>
+    <hr>
+    <p>Ja. Misschien. nee.</p>
+    <div class="saussnack">
+   <p id="selectie">Ketchup</p><input name="ketchup" type="radio"/> <input name="ketchup" type="radio"/> <input name="ketchup" type="radio"/>
+   <p id="selectie">Mayonaise</p><input name="mayo" type="radio"/> <input name="mayo" type="radio"/> <input name="mayo" type="radio"/>
+   <p id="selectie">Curry</p><input name="curry" type="radio"/> <input name="curry" type="radio"/> <input name="curry" type="radio"/>
+   <p id="selectie">Frikandel</p><input name="frikandel" type="radio"/> <input name="frikandel" type="radio"/> <input name="frikandel" type="radio"/>
+   <p id="selectie">Sate</p><input name="sate" type="radio"/> <input name="sate" type="radio"/> <input name="sate" type="radio"/>
+   <p id="selectie">Bami-hap</p><input name="bami" type="radio"/> <input name="bami" type="radio"/> <input name="bami" type="radio"/>
+   </div>
+   <input id="other" type="text" placeholder="andere snacks of sauzen? vul hier in!"/>
+</fieldset>
+<hr id="space">
+   <fieldset id="einde">
+    <p>Bedankt voor het invullen van onze survey form! Onze form komt met een kortingsbon, dus kom zeker lekker wat bestellen in onze friettent op Knutselhoeklaan 23!</p>
+    <input id="submit" type="submit" value="Submit"/>
+   </fieldset>
+  </body>
+</html>
